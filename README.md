@@ -7,7 +7,7 @@ git clone https://github.com/smallStall/RSCStarter
 cd RSCStarter
 npm install
 ```
-Let's create the Cloudflare Workers configuration file wrangler.toml as follows.
+Let's create the Cloudflare Workers configuration file wrangler.toml at root as follows.
 ```toml:wrangler.toml
 name = "remix-supabase-cloudflare-workers-starter"
 type = "javascript"
